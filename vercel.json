@@ -1,6 +1,11 @@
 {
+  "functions": {
+    "api/main.py": {
+      "runtime": "python3.8",
+      "includeFiles": ["api/main.py"]
+    }
+  },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/main.py" }
+    { "source": "/(.*)", "destination": "/api/main.py" }
   ]
 }
-
